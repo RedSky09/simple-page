@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valorant Versi Lite</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="heading"></h1>
+        <button id="changeText">NEXT</button>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script>
+        $(document).ready(function() {
+            var headings = 
+            [
+                "WE ARE VALORANT", 
+                "Combine your style and experience on the global competitive stage. You have 13 rounds to attack and defend your side with fierce gunplay and tactical skills.", 
+                "More than just guns and bullets, you will choose Agents armed with adaptive, agile, and deadly abilities to prove your marksmanship."
+            ];
+
+            var currentIndex = 0;
+            $("#heading").text(headings[currentIndex]);
+
+            $("#changeText").click(function() {
+                currentIndex = (currentIndex + 1) % headings.length;
+                $("#heading").text(headings[currentIndex]);
+            });
+        });
+    </script>
+</body>
+</html>

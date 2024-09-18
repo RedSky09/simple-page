@@ -1,0 +1,48 @@
+@font-face {
+    font-family: "Tungsten-Bold";
+    src: url("https://db.onlinewebfonts.com/t/561f38b1f4570de0fb8a39d691ab058c.eot");
+    src: url("https://db.onlinewebfonts.com/t/561f38b1f4570de0fb8a39d691ab058c.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/561f38b1f4570de0fb8a39d691ab058c.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/561f38b1f4570de0fb8a39d691ab058c.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/561f38b1f4570de0fb8a39d691ab058c.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/561f38b1f4570de0fb8a39d691ab058c.svg#Tungsten-Bold")format("svg");
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/e056c8111a52eb09222639bfc5107ba8247d67ac-3440x1020.jpg?auto=format&fit=fill&q=80&h=800');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    width: 300px;
+    padding: 20px;
+    background-color: #ECE8E1;
+    border-radius: 8px;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 0;
+    color: #0F1923;
+    font-family: Tungsten-Bold;
+}
+
+button {
+    background-color: #FF4655;
+    border: none;
+    color: #ECE8E1;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 18px;
+    margin: 4px 2px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: sans-serif;
+}
